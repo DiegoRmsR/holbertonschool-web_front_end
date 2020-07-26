@@ -395,9 +395,9 @@ ul.row {
 }
 .button:hover {
   color: var(--button-hover-color);
-  text-decoration: var(--button-text-decoration);
+  text-decoration: var(--button-hover-text-decoration);
   background: var(--button-hover-background);
-  transition: var(--transition-duration);
+  transition-duration: var(--transition-duration);
   transition-property: color, background-color;
 }
 .card-testimonial {
@@ -473,7 +473,7 @@ ul.row {
   position: relative;
 }
 .card-testimonial .card-quote::before {
-  content: "\201c";
+  content: "\201C";
   position: absolute;
   top: -4.5rem;
   left: -1rem;
