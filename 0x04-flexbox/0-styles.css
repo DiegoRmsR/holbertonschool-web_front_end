@@ -334,6 +334,10 @@ a:active {
 /* Grid
       ============================= */
 
+.row {
+  display: flex;
+}
+
 ul.row {
   margin: 0;
   padding: 0;
@@ -350,10 +354,6 @@ ul.row {
 
 .col-1-2 {
   width: 50%;
-}
-
-.row {
-    display: flex;
 }
 
 /* Navbar
