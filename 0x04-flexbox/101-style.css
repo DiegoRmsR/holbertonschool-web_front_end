@@ -1,0 +1,48 @@
+:root {
+    --font-size-all-box: 4rem;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  width: 1300px;
+  height: 200px;
+}
+.box {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.box1,
+.box5 {
+    font-size: calc(var(--font-size-all-box) * 0.6);
+    width: 10%;
+    height: 43%;
+}
+
+.box2,
+.box4 {
+    font-size: calc(var(--font-size-all-box));
+    width: 15%;
+    height: 58%;
+}
+.box3 {
+    font-size: calc(var(--font-size-all-box) * 2);
+    width: 27%;
+    height: 99%;
+    background-color: #3D385C;
+}
+.box1 {
+  background-color: #12C45A;
+}
+.box2 {
+  background-color: #43A3CD;
+}
+.box4 {
+  background-color: #ba55d3;
+}
+.box5 {
+  background-color: #EC8D13;
+}
